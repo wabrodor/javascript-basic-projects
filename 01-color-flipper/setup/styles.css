@@ -145,11 +145,7 @@ p {
     width: 95vw;
   }
 }
-main {
-  min-height: 100vh;
-  display: grid;
-  place-items: center;
-}
+
 
 /*
 =============== 
@@ -212,6 +208,8 @@ main {
 .color {
   color: var(--clr-primary-5);
 }
+
+
 .btn-hero {
   font-family: var(--ff-primary);
   text-transform: uppercase;
