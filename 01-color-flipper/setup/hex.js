@@ -5,10 +5,13 @@ const text = document.querySelector('.color')
 btn.addEventListener("click",() =>{
     let  colors = "#";
     for(let i = 0; i < 6; i++){
-     colors += hex[getRandomNumber()] ; 
+     colors += hex[getRandomNumber()] ;
     }
 text.textContent = colors
 document.body.style.backgroundColor = colors
+if(colors === "#000000"){
+    btn.style.backgroundColor = "red" 
+}
 })
 
 function getRandomNumber(){
